@@ -1,0 +1,2 @@
+BETFAIR_CRT_LOC=/code/keys/client-2048.crt
+BETFAIR_KEY_LOC=/code/keys/client-2048.key

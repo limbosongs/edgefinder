@@ -1,0 +1,11 @@
+# Base container for development and testing
+dev:
+    build: .
+    dockerfile: Dockerfile
+    restart: "no"
+    env_file:
+      - docker-env/dockerdev.txt
+      - docker-env/SECRETS.txt
+    volumes:
+      - ./app:/code/app
+      - ./docker-env/keys:/code/keys
